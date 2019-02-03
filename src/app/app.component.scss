@@ -1,0 +1,115 @@
+.posterimg{
+    width:100%;
+}
+.optionsCls {
+    height: 16vh;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border-right: 1px solid lightgrey;
+}
+div#optionsSite {
+    display: flex;
+    flex-wrap: wrap;
+}
+.optionIcon, .optionName {
+    text-align: center;
+    color:rgb(192, 37, 0);
+    font-size: 1.5rem;
+}
+.shippingIcon{
+    transform: rotateY(-180deg);
+}
+.optionsCls:last-child {
+    border-right: none !important;
+}
+div#shopbysize {
+    margin: 0 5em;
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+    grid-template-rows: 49px 71%;
+    border: 1px solid lightgrey;
+    box-shadow: 1px 2px 8px grey;
+    margin: 2rem;
+    background-color: white;
+}
+.shopOption {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+.shopIcon{
+    color:rgb(192, 37, 0);
+    & > i {
+        font-size:4rem;
+    }
+}
+#shopByHeading{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-size: 1.5rem;
+    padding: 5px 0 0 21px;
+    color: rgb(192, 37, 0);
+}
+.offerlist {
+    width: 23%;
+    display: inline-block;
+    margin: 0 10px;
+}
+.offerimgDiv {
+    height:150px;
+}
+.offerImg{
+    width:100%;
+    height:100%;
+}
+.offerlistSlide{
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+.slideArrow {
+    position: absolute;
+    top: 29%;
+    transform: translate(-39%);
+    height: 70px;
+    width: 30px;
+    background-color:rgb(245, 245,245);
+    display: flex;
+    & > i{
+        position: absolute;
+        top: 14%;
+        font-size: 3rem;
+        left: 8px;
+        color:rgb(192, 37, 0);
+    }
+}
+
+.slide-left-arr {
+    left: 0.5%;
+}
+.slide-right-arr {
+    right: 2%;
+}
+#offersDiv {
+    display: flex;
+    margin: 2rem;
+    background-color: white;
+    border: 1px solid lightgrey;
+    box-shadow: 1px 2px 8px grey;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.offerposterDiv {
+    width:23%;
+}
+.slideOffer {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 95%;
+}
+.offerdesc {
+    white-space: normal;
+}
